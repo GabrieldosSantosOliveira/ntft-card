@@ -1,66 +1,72 @@
-body{
-    background-color:hsl(217, 54%, 11%);
-      display: flex;
-      align-items:  center;
-      justify-content: center;
-      height: 100vh;
-      font-family: Outfit;
-    
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
-.container-card{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 15rem;
-    height: 25rem;
-    font-size: 18px;
-    background-color: hsl(216, 50%, 16%);
-    padding: 1rem;
-    border-radius: 10px;
+* {
+  box-sizing: border-box;
+  font-family: "Outfit";
 }
-.container-card img{
-    border-radius: 10px;
+.container-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 17rem;
+  height: 28rem;
+  font-size: 18px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px hsl(216, 50%, 10%);
 }
-.title{
-    color: hsl(0, 0%, 100%);
-font-weight: 600;
-
+.container-card:hover {
+  background-color: hsl(216, 50%, 18%);
+  cursor: pointer;
 }
-.description{
-    color: hsl(215, 51%, 70%);
-    font-size: 16px;
-    font-weight: 400;
+.container-card img {
+  border-radius: 10px;
 }
-.container-icons{
-    display: flex;
-    justify-content: space-between;
+.title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
 }
-.container-icons div{
-    display: flex;
-    align-items: center;
-    font-size: 16px;
+.description {
+  color: hsl(215, 51%, 70%);
+  font-size: 16px;
+  font-weight: 400;
 }
-.line{
-    width: 100%;
-    height: 0.1rem;
-    background-color: hsl(215, 51%, 70%);
+.container-icons {
+  display: flex;
+  justify-content: space-between;
 }
-.container-user{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container-icons div {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
 }
-.container-user img{
-    width: 30px;
-    border-radius: 100%;
-    border: 1px solid white;
+.line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: hsl(215, 51%, 70%);
 }
-.container-user p{
-    color: white;
+.container-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.container-user span{
-    color: hsl(178, 100%, 50%);
+.container-user img {
+  width: 30px;
+  border-radius: 100%;
+  border: 1px solid white;
 }
-.ethereum{
-    color: hsl(215, 51%, 70%);
+.container-user p {
+  color: white;
+}
+.container-user span {
+  color: hsl(178, 100%, 50%);
+}
+.ethereum {
+  color: hsl(215, 51%, 70%);
 }
