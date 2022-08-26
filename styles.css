@@ -46,6 +46,9 @@ body {
   align-items: center;
   font-size: 16px;
 }
+.container-icons div p {
+  margin-left: 8px;
+}
 .line {
   width: 100%;
   height: 0.1rem;
@@ -64,9 +67,39 @@ body {
 .container-user p {
   color: white;
 }
-.container-user span {
-  color: hsl(178, 100%, 50%);
+.creation {
+  color: hsl(215, 51%, 70%);
 }
 .ethereum {
   color: hsl(215, 51%, 70%);
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+}
+.imagem-hover {
+  z-index: 999;
+  display: none;
+}
+.banner:hover .imagem-hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner:hover .imagem-hover img {
+  width: 15px;
+  height: 15px;
+  margin-top: -15rem;
+}
+.autor:hover {
+  color: hsl(178, 100%, 50%);
+}
+.clock p {
+  color: hsl(215, 51%, 70%);
+}
+.title:hover {
+  color: rgb(0, 255, 247);
+}
+.imagem {
+  top: 0;
 }
