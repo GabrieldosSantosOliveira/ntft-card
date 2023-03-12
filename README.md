@@ -3,7 +3,7 @@
  
  
  ## <p align="center"> NTFT Card <a href="LICENSE"> <img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=&labelColor=202024" alt="License"></a> </p>
-O NTFT é uma aplicação desenvolvida com base no design do front-end-mentor
+O NTFT é uma aplicação desenvolvida com base no design do frontendmentor
 ## 🔖 Demonstração
 https://user-images.githubusercontent.com/86084272/224556192-42006f7d-3629-4ca1-9ad6-4e323a399ca9.mp4
 
