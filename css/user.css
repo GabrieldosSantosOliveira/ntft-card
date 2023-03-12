@@ -1,0 +1,24 @@
+.container-user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+  gap: 0.5rem;
+}
+.container-user img {
+  width: 30px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+.container-user p {
+  color: white;
+}
+.creation {
+  color: hsl(215, 51%, 70%);
+}
+.autor {
+  transition: all 0.5s ease-in-out;
+}
+.autor:hover {
+  color: hsl(178, 100%, 50%);
+}

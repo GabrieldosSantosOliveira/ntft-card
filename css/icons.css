@@ -1,0 +1,18 @@
+.container-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.container-icons div {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.container-icons div p {
+  margin-left: 8px;
+}
+.ethereum {
+  color: hsl(215, 51%, 70%);
+}
+.clock p {
+  color: hsl(215, 51%, 70%);
+}

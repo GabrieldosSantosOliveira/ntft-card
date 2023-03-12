@@ -1,0 +1,21 @@
+.container-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 17rem;
+  height: 28rem;
+  width: 90%;
+  font-size: 1.15rem;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px hsl(216, 50%, 10%);
+  transition: all 0.5s ease-in-out;
+}
+.container-card:hover {
+  background-color: hsl(216, 50%, 18%);
+  cursor: pointer;
+}
+.container-card img {
+  border-radius: 10px;
+}

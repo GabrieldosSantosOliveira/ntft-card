@@ -1,0 +1,58 @@
+.title {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  text-align: left;
+  transition: all 0.5s ease-in-out;
+}
+.description {
+  color: hsl(215, 51%, 70%);
+  font-size: 1rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+  text-align: justify;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: hsl(215, 51%, 70%);
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  transition: background-color 1s ease-in-out;
+  border-radius: 10px;
+}
+.imagem-hover {
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s ease-in-out;
+}
+.banner:hover .imagem-hover {
+  opacity: 1;
+}
+.banner .imagem-hover img {
+  z-index: 999;
+  width: 30px;
+  height: 30px;
+  margin-top: -15rem;
+}
+
+.title:hover {
+  color: rgb(0, 255, 247);
+}
+
+.imagem {
+  background: transparent;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+.banner:hover .imagem {
+  opacity: 0.5;
+}
+.banner:hover {
+  background-color: rgb(0, 255, 247);
+  border-radius: 10px;
+}
