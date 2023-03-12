@@ -1,17 +1,33 @@
-# NTFT-CARD
-## Sobre
+<p align="center">
+<img width="200px" src="https://user-images.githubusercontent.com/86084272/224556716-d2c8f1c6-c453-420e-85bd-c54c94650c56.jpg"/> </p>
+ 
+ 
+ ## <p align="center"> NTFT Card <a href="LICENSE"> <img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=&labelColor=202024" alt="License"></a> </p>
+O NTFT é uma aplicação desenvolvida com base no design do front-end-mentor
+## 🔖 Demonstração
+https://user-images.githubusercontent.com/86084272/224556192-42006f7d-3629-4ca1-9ad6-4e323a399ca9.mp4
 
-Este projeto é a resolução do desafio frontendmentor do projeto ntft-card
 
-<img width="960" alt="Captura de tela 2022-08-31 200514" src="https://user-images.githubusercontent.com/86084272/187805914-4ebbb04e-de27-45c4-9057-f34053008320.png">
+## 🛠️ Tecnologias
+- [Html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## Formas de Rodar
 
-O projeto pode ser estartado pelo index.html
+## ✔️ Pré Requisitos
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-## Membros
-Gabriel dos Santos Oliveira
+## 🚀 Como executar
 
-## Tecnologias
+Clone o repositório
+```
+git clone https://github.com/GabrieldosSantosOliveira/ntft-card.git
+```
+execute o index.html
+## 📝 License
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-HTML e CSS
+## Autor
+| [<img src="https://avatars.githubusercontent.com/u/86084272?v=4" width=115><br><sub>Gabriel Oliveira</sub>](https://www.linkedin.com/in/gabriel-dos-santos-oliveira-24b67b243/)
+| :---: | 
+
